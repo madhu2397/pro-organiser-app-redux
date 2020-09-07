@@ -1,0 +1,38 @@
+.Board {
+    width: 100%;
+}
+
+.BoardTitle {
+    font-size: 24px;
+    font-weight: 300;
+    color: #0079bf;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.ColumnsContainer {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: auto;
+    height: 100vh;
+}
+
+.AddColumn {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px dashed #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.BoardHeader {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+.ColumnCard {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-size: 14px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.ColumnCardTitle {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.ColumnCardFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MembersContainer {
+    display: flex;
+}
+

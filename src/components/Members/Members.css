@@ -1,0 +1,8 @@
+.Member {
+    border: 1px solid #aaa;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #aaa;
+    color: #fff;
+    margin-right: 5px;
+}

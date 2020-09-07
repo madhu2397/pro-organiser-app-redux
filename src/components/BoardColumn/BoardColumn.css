@@ -1,0 +1,34 @@
+.BoardColumn {
+    background-color: #ddd;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex: none;
+    height: fit-content;
+}
+
+.BoardColumnTitle {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.AddCard {
+    border: 1px dashed #ddd;
+    background-color: #fff;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.BoardColumnHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DeleteIcon {
+    cursor: pointer;
+}

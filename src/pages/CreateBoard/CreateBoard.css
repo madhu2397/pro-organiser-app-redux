@@ -1,0 +1,25 @@
+.Title {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    color: #0079bf;
+}
+
+.BoardForm {
+    margin-top: 25px;
+}
+
+.CreateButton {
+    height: 40px;
+    background-color: #0079bf;
+    color: #fff;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+.CreateButton:hover {
+    background-color: #129ae8;
+}
